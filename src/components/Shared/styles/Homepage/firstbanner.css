@@ -1,0 +1,77 @@
+.firstSection {
+  background-color: #2d4228;
+  display: flex;
+  flex-direction: row;
+  color: white;
+  padding: 40px 150px 0px 150px;
+  justify-content: space-evenly;
+}
+.leftside {
+  text-align: left;
+}
+.logotext {
+  color: #ffe0dc;
+}
+
+.subscribeinput input {
+  background: transparent;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 15px;
+  color: white;
+}
+.subscribeBtn {
+  background-color: #ffe0dc;
+  color: black;
+  padding: 15px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+.makers img {
+  margin-left: 10px;
+}
+.rightside {
+  display: flex;
+  margin-bottom: -90px;
+}
+.subscribeinput input:focus {
+  /* border: none; */
+  outline: none;
+}
+@media (max-width: 700px) {
+  .firstSection {
+    background-color: #2d4228;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding: 0;
+    justify-content: space-evenly;
+    width: 100%;
+    text-align: center;
+  }
+  .leftside {
+    text-align: center;
+  }
+  .rightside > div:nth-child(1) > img:nth-child(1) {
+    max-width: 100%;
+  }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  .firstSection {
+    background-color: #2d4228;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding: 20px;
+    justify-content: center;
+  }
+  .leftside {
+    text-align: center;
+  }
+  .rightside {
+    justify-content: center;
+    padding-top: 20px;
+  }
+}

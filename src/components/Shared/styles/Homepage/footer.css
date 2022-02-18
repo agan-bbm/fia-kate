@@ -1,0 +1,30 @@
+.footer {
+  background-color: #2d4228;
+
+  bottom: 0;
+}
+.footer-container {
+  color: white;
+  padding: 50px;
+  padding-bottom: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.footer-container h4 {
+  font-size: 30px;
+  font-weight: 400;
+  margin: 20px;
+}
+.footerlogo {
+  text-align: center;
+}
+.rightsreserved {
+  padding: 20px 0px;
+}
+@media (max-width: 768px) {
+  .footer-container {
+    padding: 50px 20px;
+  }
+}

@@ -1,0 +1,86 @@
+.thirdSection {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  margin-left: 10%;
+}
+.thirdcontainer {
+  width: 1100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.thirdleft {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  width: 50%;
+}
+.thirdleft p {
+  font-size: 20px;
+  padding-right: 50px;
+  margin-bottom: 0px;
+}
+.thirdleft h2 {
+  font-size: 50px;
+  margin: 0;
+  color: #2d4228;
+}
+.madein {
+  color: #0d1f51;
+}
+.thirdtext {
+  color: black;
+}
+
+@media (max-width: 768px) {
+  .thirdSection {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-left: 0% !important;
+    flex-direction: column;
+  }
+  .thirdcontainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .thirdleft {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+  }
+  .thirdright {
+    order: -1;
+  }
+
+  .thirdleft p {
+    font-size: 16px;
+    padding-right: 0;
+    margin-bottom: 0px;
+    padding-bottom: 20px;
+  }
+  .thirdright > img:nth-child(1) {
+    max-width: 100%;
+  }
+  .thirdleft h2 {
+    font-size: 30px;
+  }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  .thirdSection {
+    width: 768px;
+    margin-left: 3%;
+    padding-top: 50px;
+  }
+  .thirdleft h2 {
+    font-size: 40px;
+    margin: 0;
+    color: #2d4228;
+  }
+}

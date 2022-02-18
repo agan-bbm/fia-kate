@@ -1,0 +1,29 @@
+.jew-section {
+  padding: 30px 0px;
+}
+h1 {
+  color: #2d4228;
+  font-weight: 500;
+  font-size: 40px;
+  text-align: center;
+}
+.jewellery {
+  display: flex;
+  justify-content: center;
+}
+.single-jewellery {
+  margin: 0px 20px;
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  .jew-section {
+    padding: 30px 0px;
+    width: 100%;
+  }
+  .single-jewellery {
+    margin: 10px;
+  }
+  .single-jewellery img {
+    width: 215px;
+    margin: 0px;
+  }
+}
