@@ -1,0 +1,134 @@
+.secondSection {
+  padding: 100px;
+  justify-content: center;
+  height: auto;
+  display: flex;
+  padding-bottom: 50px;
+  padding-top: 100px;
+}
+.celticJewelery {
+  background-image: url("../../../../assets/celticjewelery.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+
+  height: 470px;
+  justify-content: center;
+  width: 1000px;
+  display: flex;
+}
+.content {
+  width: 35%;
+  margin-left: 50%;
+  padding-top: 10%;
+  text-align: left;
+}
+.Sterling {
+  margin: 0;
+  color: #0d1f51;
+  font-size: 20px;
+  font-weight: 500;
+}
+.content h2 {
+  font-size: 40px;
+  font-weight: 500;
+  color: #2d4228;
+  margin: 0;
+}
+.secondbannertext {
+  font-size: 20px;
+  color: black;
+  margin: 0;
+}
+
+.celticJewelryMobile {
+  display: flex;
+  flex-direction: column;
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .secondSection {
+    padding: 0;
+    justify-content: center;
+    height: auto;
+    display: flex;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    width: 100%;
+  }
+  .celticJewelery {
+    display: none;
+  }
+  .celticJewelryMobile {
+    display: flex;
+    flex-direction: column;
+  }
+  .contentmobile {
+    display: flex;
+    flex-direction: column;
+  }
+  .contentmobile img {
+    width: 100%;
+    order: 1;
+  }
+  .Sterlingmobile {
+    color: #0d1f51;
+    font-size: 18px;
+    margin: 0;
+    font-weight: 500;
+  }
+  .contentmobile > h2 {
+    margin: 0;
+    color: #2d4228;
+    font-size: 30px;
+    font-weight: 500;
+  }
+  .secondbannertextmobile {
+    padding: 0px 30px;
+    margin-top: 0;
+  }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  /* For portrait layouts only */
+  .secondSection {
+    /*! padding: 100px; */
+    justify-content: center;
+    height: auto;
+    display: flex;
+    /*! padding-bottom: 50px; */
+    padding: 100px !important;
+    padding-bottom: 0px !important;
+    /*! width: 768px; */
+    height: 400px;
+  }
+  .celticJewelery {
+    width: 768px;
+    background-size: contain;
+  }
+  .content {
+    width: auto;
+    margin-left: 50%;
+    padding-top: 10%;
+    padding-right: 40px;
+    /*! display: flex; */
+    /*! justify-content: center; */
+  }
+  .content h2 {
+    font-size: 45px;
+    font-weight: 500;
+    color: #2d4228;
+    margin: 0;
+  }
+  .secondbannertext {
+    font-size: 16px;
+    color: black;
+    width: 100% !important;
+    margin: 0;
+  }
+  .Sterling {
+    margin: 0;
+    color: #0d1f51;
+    font-size: 18px;
+  }
+}

@@ -1,0 +1,125 @@
+.jew-section {
+  padding: 30px 0px;
+}
+h1 {
+  color: #2d4228;
+  font-weight: 500;
+  font-size: 40px;
+  text-align: center;
+}
+.jewellery {
+  display: flex;
+  justify-content: center;
+}
+.single-jewellery {
+  margin: 0px 20px;
+}
+@media (max-width: 768px) {
+  h1 {
+    font-size: 30px;
+  }
+  .jewellery {
+    display: none;
+  }
+  .jew-mobile-slider {
+    height: 400px;
+    padding-bottom: 50px;
+  }
+  .slick-slide.slick-active {
+    margin: 0px 10px;
+  }
+  .slick-track {
+    height: 400px;
+  }
+  .slick-list {
+    height: 450px;
+  }
+  .slick-prev {
+    left: 20px;
+    z-index: 99999;
+  }
+  .slick-next,
+  .slick-prev {
+    font-size: 0;
+    line-height: 0;
+    bottom: 0;
+    width: 20px;
+    height: 20px;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    cursor: pointer;
+    color: #0d1f51 !important;
+    border: none;
+    outline: 0;
+    /*! background:red; */
+  }
+  .slick-next {
+    right: 20px;
+    color: #0d1f51 !important;
+    z-index: 99999;
+  }
+  .slick-next:before,
+  .slick-prev:before {
+    font-size: 20px;
+    line-height: 1;
+    opacity: 0.75;
+    color: #0d1f51;
+  }
+  .slick-dots li {
+    position: relative;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+  }
+  .slick-dots li button:before {
+    font-size: 12px;
+    line-height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    content: "•";
+    text-align: center;
+    opacity: 0.25;
+    color: #000;
+  }
+  .slick-dots {
+    top: 100%;
+    width: 100%;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+  }
+  .slick-next,
+  .slick-prev {
+    font-size: 0;
+    line-height: 0;
+    top: 103%;
+    width: 20px;
+    height: 20px;
+    transform: translate(0, -50%);
+    cursor: pointer;
+    color: #0d1f51 !important;
+    border: none;
+    outline: 0;
+    /*! background:red; */
+  }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  .jew-section {
+    padding: 30px 0px;
+    width: 100%;
+  }
+  .single-jewellery {
+    margin: 10px;
+  }
+  .single-jewellery img {
+    width: 215px;
+    margin: 0px;
+  }
+}

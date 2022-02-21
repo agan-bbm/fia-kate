@@ -1,0 +1,40 @@
+.footer {
+  background-color: #2d4228;
+
+  bottom: 0;
+}
+.footer-container {
+  color: white;
+  padding: 50px;
+  padding-bottom: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.footer-container h4 {
+  font-size: 28px;
+  font-weight: 500;
+  margin: 0;
+}
+.footerlogo {
+  text-align: center;
+}
+.rightsreserved {
+  padding: 20px 0px;
+}
+@media (min-width: 1200px) {
+  .subscribeinput input {
+    width: 250px;
+  }
+}
+@media (max-width: 768px) {
+  .footer-container {
+    padding: 50px 20px;
+    padding-bottom: 0px;
+  }
+  .rightsreserved {
+    padding: 20px 0px;
+    padding-bottom: 0px;
+  }
+}
