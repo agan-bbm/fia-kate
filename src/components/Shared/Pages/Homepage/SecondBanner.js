@@ -1,8 +1,9 @@
 import React from "react";
 
 import "../../styles/Homepage/secondbanner.css";
-import mobilejewelery from "../../../../assets/jewelery-mobile.png";
+import mobilejewelery from "../../../../assets/secondmobileimg.png";
 
+import desktopjewelery from "../../../../assets/jewelery-mobile.png";
 function SecondBanner() {
   return (
     <>
@@ -14,9 +15,10 @@ function SecondBanner() {
               <h2>Celtic Jewlery</h2>
               <p className="secondbannertext">
                 On a quarterly basis, every customer will receive a box of
-                celtic jewelry worth over $100, created by local artisans in
-                Ireland. Whether you buy it for yourself or gift it to someone
-                you love, every box will be catered to your desires!
+                celtic jewelry and a little surprise gift, all worth between $80
+                and $100, created by local artisans in Ireland. Whether you buy
+                it for yourself or gift it to someone you love, every box will
+                be catered to your desires!
               </p>
             </div>
           </div>
@@ -24,7 +26,12 @@ function SecondBanner() {
       </div>
       <div className="celticJewelryMobile">
         <div className="contentmobile">
-          <img src={mobilejewelery} alt="mobilejwl"></img>
+          <img
+            className="jewDesktop"
+            src={desktopjewelery}
+            alt="mobilejwl"
+          ></img>
+          <img className="jewMobile" src={mobilejewelery} alt="mobilejwl"></img>
           <p className="Sterlingmobile">Sterling silver & Gold Plated</p>
           <h2>Celtic Jewlery</h2>
           <p className="secondbannertextmobile">

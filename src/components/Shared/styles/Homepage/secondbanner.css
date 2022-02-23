@@ -4,7 +4,7 @@
   height: auto;
   display: flex;
   padding-bottom: 50px;
-  padding-top: 100px;
+  padding-top: 130px;
 }
 .celticJewelery {
   background-image: url("../../../../assets/celticjewelery.png");
@@ -16,6 +16,12 @@
   justify-content: center;
   width: 1000px;
   display: flex;
+}
+.jewMobile {
+  display: none;
+}
+.jewDesktop {
+  display: block;
 }
 .content {
   width: 35%;
@@ -57,12 +63,20 @@
     padding-top: 20px;
     width: 100%;
   }
+  .jewMobile {
+    display: block;
+  }
+  .jewDesktop {
+    display: none;
+  }
+
   .celticJewelery {
     display: none;
   }
   .celticJewelryMobile {
     display: flex;
     flex-direction: column;
+    padding-top: 50px;
   }
   .contentmobile {
     display: flex;
@@ -101,6 +115,12 @@
     padding-bottom: 0px !important;
     /*! width: 768px; */
     height: 400px;
+  }
+  .jewMobile {
+    display: none;
+  }
+  .jewDesktop {
+    display: block;
   }
   .celticJewelery {
     width: 768px;

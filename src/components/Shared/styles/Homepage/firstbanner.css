@@ -25,19 +25,22 @@
 .subscribeinput input {
   width: 60%;
 }
-@media (min-width: 1200px) {
+
+@media (min-width: 1000px) {
   .firstSection {
     background-color: #2d4228;
     display: flex;
     flex-direction: row;
     color: white;
     padding: 40px 150px 0px 150px;
-    justify-content: space-evenly;
-    height: 40vh;
+    justify-content: center;
+    height: auto;
     align-items: center;
   }
+
   .leftside {
     text-align: left;
+    padding-right: 30px;
   }
   .logotext {
     color: #ffe0dc;
@@ -67,7 +70,7 @@
   }
   .rightside {
     display: flex;
-    margin-bottom: -100px;
+    margin-bottom: -90px;
   }
   .subscribeinput input:focus {
     /* border: none; */
@@ -111,9 +114,12 @@
   .leftside {
     text-align: center;
   }
-
+  .rightside {
+    padding-top: 20px;
+  }
   .rightside > div:nth-child(1) > img:nth-child(1) {
     max-width: 100%;
+    margin-bottom: -75px;
   }
   .subscribeinput input {
     width: 55%;
@@ -142,6 +148,7 @@
     font-size: 30px;
     font-weight: 500;
     padding: 0px 10px;
+    margin-top: 0px;
   }
 
   .Subscribe > div:nth-child(2) {
@@ -202,5 +209,8 @@
     text-align: left;
     width: 50%;
     margin-left: 18%;
+  }
+  .main-heading-mobile {
+    display: none;
   }
 }

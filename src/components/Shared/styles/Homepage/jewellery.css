@@ -1,6 +1,15 @@
 .jew-section {
   padding: 30px 0px;
 }
+.slick-prev:before,
+.slick-next:before {
+  content: "" !important;
+}
+.slick-next,
+.slick-prev {
+  background: #0d1f51 !important;
+  border-radius: 50px !important;
+}
 h1 {
   color: #2d4228;
   font-weight: 500;
@@ -32,7 +41,7 @@ h1 {
     height: 400px;
   }
   .slick-list {
-    height: 450px;
+    height: 400px;
   }
   .slick-prev {
     left: 20px;

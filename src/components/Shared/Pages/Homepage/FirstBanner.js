@@ -32,9 +32,9 @@ function FirstBanner() {
           </div>
         </div>
         <div className="makers">
-          <p>
+          {/* <p>
             From the makers of <img src={myblogo}></img>
-          </p>
+          </p> */}
         </div>
       </div>
       <div className="rightside">

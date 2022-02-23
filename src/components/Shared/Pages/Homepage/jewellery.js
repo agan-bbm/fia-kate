@@ -3,11 +3,24 @@ import jewimg1 from "../../../../assets/jewimg1.png";
 import jewimg2 from "../../../../assets/jewimg2.png";
 import jewimg3 from "../../../../assets/jewimg3.png";
 import "../../styles/Homepage/jewellery.css";
+import LeftArrow from "../../../../assets/arrow-left.png";
+import RightArrow from "../../../../assets/arrow-right.png";
 import Slider from "react-slick";
+
 function Jewellery() {
   const settings = {
     arrows: true,
     slidesToShow: 1,
+    prevArrow: (
+      <div id="slick-prev">
+        <img src={LeftArrow} />
+      </div>
+    ),
+    nextArrow: (
+      <div id="slick-next">
+        <img src={RightArrow} />
+      </div>
+    ),
     slidesToScroll: 1,
     infinite: true,
     centerMode: true,

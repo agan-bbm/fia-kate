@@ -6,15 +6,15 @@
 .howitworks h1 {
   color: #2d4228;
   font-weight: 500;
-  font-size: 50px;
+  font-size: 40px;
   margin: 0px;
-  padding-bottom: 30px;
+  padding-bottom: 0px;
 }
 .steps-img-container {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  padding: 30px 100px;
+  padding: 30px 0px;
 }
 .step {
   width: 25%;
@@ -72,8 +72,9 @@
     font-weight: 500;
     font-size: 30px;
     margin: 0px;
-    padding-bottom: 0;
-    padding-top: 20px;
+
+    padding: 30px;
+    padding-bottom: 10px;
   }
   .step {
     width: auto;

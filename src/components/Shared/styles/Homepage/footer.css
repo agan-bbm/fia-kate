@@ -15,7 +15,7 @@
 .footer-container h4 {
   font-size: 28px;
   font-weight: 500;
-  margin: 0;
+  /* margin: 0; */
 }
 .footerlogo {
   text-align: center;
@@ -36,5 +36,10 @@
   .rightsreserved {
     padding: 20px 0px;
     padding-bottom: 0px;
+  }
+  .footer-container h4 {
+    margin: 5px;
+
+    font-size: 24px;
   }
 }
