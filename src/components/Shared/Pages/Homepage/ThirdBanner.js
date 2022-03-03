@@ -1,6 +1,6 @@
 import React from "react";
 
-import jewelery from "../../../../assets/newjewelery.png";
+import madeinclassic from "../../../../assets/madeinclassic.png";
 import mobilejewelery from "../../../../assets/mobileimgshort.png";
 import "../../styles/Homepage/thirdbanner.css";
 
@@ -19,7 +19,7 @@ function ThirdBanner() {
           </p>
         </div>
         <div className="thirdright">
-          <img className="desktopimagenormal" src={jewelery}></img>
+          <img className="desktopimagenormal" src={madeinclassic}></img>
           <img className="mobileimageshort" src={mobilejewelery}></img>
         </div>
       </div>

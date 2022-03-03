@@ -1,8 +1,8 @@
 import React from "react";
-import stepone from "../../../../assets/stepone.svg";
+import pink from "../../../../assets/pink.png";
 import "../../styles/Homepage/howitworks.css";
-import steptwo from "../../../../assets/steptwo.svg";
-import stepthree from "../../../../assets/stepthree.svg";
+import blue from "../../../../assets/blue.png";
+import green from "../../../../assets/green.png";
 
 function Howitworks() {
   return (
@@ -11,14 +11,14 @@ function Howitworks() {
         <h1>How Fia & Kate Works</h1>
         <div className="steps-img-container">
           <div className="step">
-            <img src={stepone} alt="step-img"></img>
+            <img src={pink} alt="step-img"></img>
             <div>
               <h4>Subscribe to Fia & Kate</h4>
               <p>Choose our quarterly plan to get started!</p>
             </div>
           </div>
           <div className="step">
-            <img src={steptwo} alt="step-img"></img>
+            <img src={blue} alt="step-img"></img>
             <div>
               <h4>Recieve the box</h4>
               <p>
@@ -27,7 +27,7 @@ function Howitworks() {
             </div>
           </div>
           <div className="step">
-            <img src={stepthree} alt="step-img"></img>
+            <img src={green} alt="step-img"></img>
             <div>
               <h4>Enjoy Irelands finest celtic jewellery</h4>
               <p>

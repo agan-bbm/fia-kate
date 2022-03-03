@@ -2,6 +2,10 @@ import React from "react";
 import jewimg1 from "../../../../assets/jewimg1.png";
 import jewimg2 from "../../../../assets/jewimg2.png";
 import jewimg3 from "../../../../assets/jewimg3.png";
+import desktopslide1 from "../../../../assets/desktopslide1.png";
+import desktopslide2 from "../../../../assets/desktopslide2.png";
+import desktopslide3 from "../../../../assets/desktopslide3.png";
+
 import "../../styles/Homepage/jewellery.css";
 import LeftArrow from "../../../../assets/arrow-left.png";
 import RightArrow from "../../../../assets/arrow-right.png";
@@ -43,13 +47,13 @@ function Jewellery() {
         <div className="upperimages"></div>
         <div className="jewellery">
           <div className="single-jewellery">
-            <img src={jewimg1}></img>
+            <img src={desktopslide1}></img>
           </div>
           <div className="single-jewellery">
-            <img src={jewimg2}></img>
+            <img src={desktopslide2}></img>
           </div>
           <div className="single-jewellery">
-            <img src={jewimg3}></img>
+            <img src={desktopslide3}></img>
           </div>
         </div>
       </div>
