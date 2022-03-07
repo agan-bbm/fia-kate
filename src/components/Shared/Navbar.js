@@ -1,6 +1,7 @@
 import React from "react";
 import logo from "../../assets/fia-kate-logo.png";
 import "./styles/navbar.css";
+
 function Navbar() {
   return (
     <div>

@@ -1,7 +1,7 @@
 import React from "react";
-import jewimg1 from "../../../../assets/jewimg1.png";
-import jewimg2 from "../../../../assets/jewimg2.png";
-import jewimg3 from "../../../../assets/jewimg3.png";
+// import jewimg1 from "../../../../assets/jewimg1.png";
+// import jewimg2 from "../../../../assets/jewimg2.png";
+// import jewimg3 from "../../../../assets/jewimg3.png";
 import desktopslide1 from "../../../../assets/desktopslide1.png";
 import desktopslide2 from "../../../../assets/desktopslide2.png";
 import desktopslide3 from "../../../../assets/desktopslide3.png";
@@ -34,26 +34,28 @@ function Jewellery() {
   return (
     <>
       <div className="jew-section">
-        <h1>
-          A unique range of <br></br> handcrafted jewellery
-        </h1>
-        <div className="jew-mobile-slider">
-          <Slider {...settings}>
-            <img src={jewimg1} />
-            <img src={jewimg2} />
-            <img src={jewimg3} />
-          </Slider>
-        </div>
-        <div className="upperimages"></div>
-        <div className="jewellery">
-          <div className="single-jewellery">
-            <img src={desktopslide1}></img>
+        <div className="containerWrapper">
+          <h1>
+            A unique range of <br></br> handcrafted jewellery
+          </h1>
+          <div className="jew-mobile-slider">
+            <Slider {...settings}>
+              <img src={desktopslide1} />
+              <img src={desktopslide2} />
+              <img src={desktopslide3} />
+            </Slider>
           </div>
-          <div className="single-jewellery">
-            <img src={desktopslide2}></img>
-          </div>
-          <div className="single-jewellery">
-            <img src={desktopslide3}></img>
+          <div className="upperimages"></div>
+          <div className="jewellery">
+            <div className="single-jewellery">
+              <img src={desktopslide1}></img>
+            </div>
+            <div className="single-jewellery">
+              <img src={desktopslide2}></img>
+            </div>
+            <div className="single-jewellery">
+              <img src={desktopslide3}></img>
+            </div>
           </div>
         </div>
       </div>

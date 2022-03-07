@@ -39,3 +39,10 @@
 button {
   cursor: pointer;
 }
+@media (min-width: 1200px) {
+  .containerWrapper {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+  }
+}

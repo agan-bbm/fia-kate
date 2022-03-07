@@ -1,6 +1,6 @@
 .howitworks {
   background-color: #ffe0dc21;
-  padding: 20px 50px;
+  padding: 20px 0px;
   margin-bottom: 50px;
 }
 .howitworks h1 {
@@ -13,7 +13,7 @@
 .steps-img-container {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
   padding: 30px 0px;
 }
 .step {
@@ -24,11 +24,11 @@
   font-weight: 500;
   margin-bottom: 0;
   padding-bottom: 0;
-  padding: 0px 50px;
+  padding: 0px x;
 }
 .step p {
   margin: 0;
-  padding: 0px 40px;
+  padding: 0px;
 }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
   .howitworks {

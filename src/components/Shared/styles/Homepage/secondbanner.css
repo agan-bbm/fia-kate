@@ -1,5 +1,4 @@
 .secondSection {
-  padding: 100px;
   justify-content: center;
   height: auto;
   display: flex;
@@ -12,9 +11,9 @@
   background-repeat: no-repeat;
   border-radius: 10px;
 
-  height: 470px;
+  height: 549px;
   justify-content: center;
-  width: 1000px;
+  width: 100%;
   display: flex;
 }
 .jewMobile {
@@ -76,7 +75,7 @@
   .celticJewelryMobile {
     display: flex;
     flex-direction: column;
-    padding-top: 50px;
+    padding-top: 100px;
   }
   .contentmobile {
     display: flex;
@@ -99,7 +98,7 @@
     font-weight: 500;
   }
   .secondbannertextmobile {
-    padding: 0px 30px;
+    padding: 5px 20px;
     margin-top: 0;
   }
 }

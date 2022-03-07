@@ -17,11 +17,17 @@ h1 {
   text-align: center;
 }
 .jewellery {
-  display: flex;
-  justify-content: center;
+  display: grid;
+  grid-template: repeat (3, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  width: 100%;
+  grid-column-gap: 30px;
 }
 .single-jewellery {
-  margin: 0px 20px;
+  margin: 0px;
+}
+.single-jewellery img {
+  width: 100%;
 }
 @media (max-width: 768px) {
   h1 {
@@ -108,7 +114,7 @@ h1 {
   .slick-prev {
     font-size: 0;
     line-height: 0;
-    top: 103%;
+    top: 105%;
     width: 20px;
     height: 20px;
     transform: translate(0, -50%);
