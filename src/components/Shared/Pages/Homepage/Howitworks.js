@@ -9,12 +9,12 @@ function Howitworks() {
     <>
       <div className="howitworks">
         <div className="containerWrapper">
-          <h1>How Fia & Kate Works</h1>
+          <h1>How Fia&Kate Works</h1>
           <div className="steps-img-container">
             <div className="step">
               <img src={pink} alt="step-img"></img>
               <div>
-                <h4>Subscribe to Fia & Kate</h4>
+                <h4>Subscribe to Fia&Kate</h4>
                 <p>Choose our quarterly plan to get started!</p>
               </div>
             </div>

@@ -27,7 +27,7 @@ function Footer() {
           coming!
         </h4>
         <div className="footer-subscribe">
-          <p> Be the first to know when fia+kate launches</p>
+          <p> Be the first to know when Fia+Kate launches</p>
           <form
             action="https://cms.fia-kate.com/wp-content/newsletter.php"
             method="POST"

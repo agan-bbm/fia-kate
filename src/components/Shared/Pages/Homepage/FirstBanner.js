@@ -39,7 +39,7 @@ function FirstBanner() {
           </div>
 
           <div className="Subscribe">
-            <p> Be the first to know when fia+kate launches</p>
+            <p> Be the first to know when Fia+Kate launches</p>
             <form
               action="https://cms.fia-kate.com/wp-content/newsletter.php"
               method="POST"
