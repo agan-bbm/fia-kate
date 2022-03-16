@@ -23,18 +23,17 @@ function Howitworks() {
               <div>
                 <h4>Recieve the box</h4>
                 <p>
-                  Every box is packed with a unique range of handcrafted
-                  jewellery
+                  Every box is packed with a unique range of handcrafted jewelry
                 </p>
               </div>
             </div>
             <div className="step">
               <img src={green} alt="step-img"></img>
               <div>
-                <h4>Enjoy Irelands finest celtic jewellery</h4>
+                <h4>Enjoy Irelands finest Celtic jewelry</h4>
                 <p>
                   {" "}
-                  Embraces the essence of Ireland with every piece of jewllery
+                  Embraces the essence of Ireland with every piece of jewelry
                 </p>
               </div>
             </div>

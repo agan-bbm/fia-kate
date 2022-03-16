@@ -36,7 +36,7 @@ function Jewellery() {
       <div className="jew-section">
         <div className="containerWrapper">
           <h1>
-            A unique range of <br></br> handcrafted jewellery
+            A unique range of <br></br> handcrafted jewelry
           </h1>
           <div className="jew-mobile-slider">
             <Slider {...settings}>
