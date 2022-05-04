@@ -24,7 +24,7 @@ function FirstBanner() {
         <div className="leftside">
           <div className="logotext">
             <p>
-              <span>Fia+Kate</span> is Comming Soon
+              <span>Fia+Kate</span> is Coming Soon
             </p>
           </div>
           <div>
